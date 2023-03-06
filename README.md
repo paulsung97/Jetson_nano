@@ -1,3 +1,5 @@
-# Recipe_Recommendation_Model_based_YOLO-GPT_for_healthcare_management_system
-==============================================================================
+# Recipe Recommendation Model based YOLO-GPT
+============================================
+for healthcare management system
+================================
 paper_project
