@@ -4,7 +4,7 @@ Recipe Recommendation Model based YOLO-GPT for healthcare management system
 paper_project
 -------------
 
-# crowling image data and make image data 
+### 1. crowling image data and make image data 
 
 #### https://aihub.or.kr/aihubdata/data/view.docurrMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=242
 
