@@ -37,7 +37,7 @@ Recipe Recommendation Model based YOLO-GPT for healthcare management system
 
 #### Open Disk Management.
 
-#### Your sd card will be recognized in the disk Management. 
+#### Your sd card will be recognized in disk Management. 
 
 #### Right-click the unassigned area and click Create New Volume.
 
