@@ -29,7 +29,7 @@ Recipe Recommendation Model based YOLO-GPT for healthcare management system
 
 
 
-### 3. ! error in JETSON NANO
+## ! error in JETSON NANO
 
 #### if your sd card have unuserable error do it this way.
 
