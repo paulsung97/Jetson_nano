@@ -14,7 +14,7 @@ Recipe Recommendation Model based YOLO-GPT for healthcare management system
 
 ## 2. JETSON NANO
 
-### Supplies: JETSON NANO, SD card (16g or more), 5V 2A charger, HDML wire
+### Supplies: JETSON NANO, SD card (16g or more), 5V 2A charger, HDMI wire
 
 
 ### Download Jetson Nano Developer Kit SD Card Image  (4.6.1vr)
