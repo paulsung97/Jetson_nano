@@ -52,3 +52,6 @@ Recipe Recommendation Model based YOLO-GPT for healthcare management system
 
 
 ## 3. DeepSream
+
+#### I used deepstream 6.0.
+#### https://docs.nvidia.com/metropolis/deepstream/6.0/dev-guide/text/DS_Quickstart.html
