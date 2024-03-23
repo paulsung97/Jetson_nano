@@ -1,57 +1,54 @@
-Recipe Recommendation Model based YOLO-GPT for healthcare management system
-===========================================================================
+# Setting Up Your Jetson Nano
 
-2023 paper_project
-------------------
+This guide provides step-by-step instructions on how to prepare your Jetson Nano for use, including initial setup and troubleshooting common issues.
 
-## 1. crowling image data and make image data 
+## Initial Setup
 
-#### https://aihub.or.kr
+### What You'll Need:
+- **Jetson Nano**
+- **SD Card** (16GB or larger recommended)
+- **5V 2A Micro-USB Power Supply**
+- **HDMI Cable**
 
-#### https://github.com/paulsung97/Do_it_Crawling_self-created_images
+### Preparing the SD Card:
 
+1. **Download the Jetson Nano Developer Kit SD Card Image (version 4.6.1)**  
+   Visit the [NVIDIA Developer Downloads](https://developer.nvidia.com/embedded/downloads) page to download the image.
 
+2. **Unzip the Downloaded File**  
+   Extract the contents of the zip file after downloading.
 
-## 2. JETSON NANO
+3. **Download an Image Writing Tool**  
+   Obtain the [Win32DiskImager tool](https://sourceforge.net/projects/win32diskimager/) from SourceForge.
 
-### Supplies: JETSON NANO, SD card (16g or more), 5V 2A charger, HDMI wire
+4. **Write the Image to the SD Card**  
+   - Launch the Win32DiskImager tool.
+   - Select the unzipped image file and the SD card drive.
+   - Click on the **Write** button to begin the process.
 
+## Troubleshooting: SD Card Errors
 
-### Download Jetson Nano Developer Kit SD Card Image  (4.6.1vr)
-#### https://developer.nvidia.com/embedded/downloads
-#### Unzip the file.
+If you encounter issues with the SD card being recognized or appearing as unusable, follow these steps:
 
+1. **Access Disk Management**
+   - Right-click on the Start menu.
+   - Select **Disk Management**.
 
-### Download Jetson Nano Image Write
-#### https://sourceforge.net/projects/win32diskimager/
-#### use this tool and upload unzip file.
-#### click write button
+2. **Prepare the SD Card**
+   - In Disk Management, locate your SD card (it should appear as unallocated space).
+   - Right-click the unallocated space and select **Create New Simple Volume**.
 
+3. **Format the SD Card**
+   - Download the [SD Memory Card Formatter](https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/) for Windows.
+   - Install and run the tool to format your SD card, which should resolve any errors.
 
+## Setting Up DeepStream
 
-## ! error in JETSON NANO
+To leverage the capabilities of your Jetson Nano for AI-driven video analytics, setting up DeepStream is essential.
 
-### if your sd card have unuserable error do it this way.
+1. **Download DeepStream SDK 6.0**  
+   Follow the [DeepStream 6.0 Quickstart Guide](https://docs.nvidia.com/metropolis/deepstream/6.0/dev-guide/text/DS_Quickstart.html) for detailed installation instructions.
 
-#### Right-click on the window shape.
+By following these instructions, your Jetson Nano will be ready for developing cutting-edge AI applications.
 
-#### Open Disk Management.
-
-#### Your sd card will be recognized in disk Management. 
-
-#### Right-click the unassigned area and click Create New Volume.
-
-#### download SD Memory Card Formatter for Windows 
-#### https://www.sdcard.org/downloads/formatter/sd-memory-card-formatter-for-windows-download/
-
-
-#### format your sd card 
-
-#### It will help your sd card error.
-
-
-
-## 3. DeepSream
-
-#### I used deepstream 6.0.
-#### https://docs.nvidia.com/metropolis/deepstream/6.0/dev-guide/text/DS_Quickstart.html
+---
